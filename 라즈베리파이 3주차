@@ -1,0 +1,8 @@
+sudo apt-get install fonts-unfonts-core -y -> 한글 설정
+sudo apt-get install arduino -> 아두이노 설치
+
+Do-> digital out
+미들웨어 - 중간에서 정보를 수집해주는 것
+
+BCM -> bcm버전으로 사용시 14로 사용함
+Board-> board pin 번호로 설정

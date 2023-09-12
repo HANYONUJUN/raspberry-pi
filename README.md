@@ -1,10 +1,10 @@
 # raspberrypi
-
 <h3>라즈베리파이 초기 설정</h3>
 sudo apt update <br>
 sudo apt upgrade
 <br>
 <br>
+
 <li>
   한글설정
 </li>
@@ -12,13 +12,15 @@ sudo apt-get install fonts-unfonts-core -y (은폰트) <br>
 sudo apt-get install ibus ibus-hangul -y (한글 입력기)
 <br>
 <br>
+
 <li>
   아두이노 설치
 </li>
 sudo apt-get install arduino -y
 <br>
 <br>
-<h3>InfluxDB2 설치 방법</h3>
+
+## <h3>InfluxDB2 설치 방법</h3>
 <hr>
 <li>
   InfluxDB download key using wget
@@ -44,5 +46,7 @@ sudo apt-get install influxdb -y
 <li>InfluxDB as a background service on startup</li>
 sudo service influxdb start(influxdb 시작 명령어)
 <br>
+<br>
+
 <li>InfluxDB is status(service)</li>
-sudo service influxdb status
+sudo service influxdb status(infulxdb localhost로 접속 가능?명렁어)

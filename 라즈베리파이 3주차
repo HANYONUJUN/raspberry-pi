@@ -24,3 +24,5 @@ GPIO.ADD_EVENT_DETECT(14, GPIO.FALLING, callback=interrupt_fired)
 while(True):
   time.sleep(1)
   print("Timer Fired")
+
+파일 이름을 지을 때 모듈 이름이랑 겹치면 안됌

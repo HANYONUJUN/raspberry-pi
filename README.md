@@ -1,7 +1,6 @@
 # raspberrypi
 
 <h3>라즈베리파이 초기 설정</h3>
-<br>
   sudo apt update<br>
   sudo apt upgrade
 <li>

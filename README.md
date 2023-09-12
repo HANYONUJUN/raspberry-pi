@@ -3,7 +3,7 @@
   sudo apt update<br>
   sudo apt upgrade
 <br>
-
+<br>
 <li>
   한글설정
 </li>

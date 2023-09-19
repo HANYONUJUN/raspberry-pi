@@ -93,7 +93,7 @@
 
 <li>Repository를 더하기</li>
 
-    echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a                 /etc/apt/sources.list.d/grafana.list
+    echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 
 <li>프로그램 설치</li>
 

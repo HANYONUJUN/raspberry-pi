@@ -67,6 +67,7 @@
 <li>InfluxDB is status(service)</li>
 
     sudo service influxdb status(infulxdb localhost로 접속 가능?명렁어)
+    ->InfluxDB2로 설치했을 시
 
 <br>
 <br>
@@ -74,3 +75,12 @@
 <li>influxdb import with python</li>
 
     sudo pip install influxdb
+
+<br>
+<br>
+<li>InfluxDB 데이터베이스 만들기</li>
+
+    $ influx
+    >create database <데이터베이스명>
+    확인 : show databases
+

@@ -4,6 +4,8 @@ import time
 import RPi.GPIO as GPIO
 import requests, json
 from influxdb import InfluxDBClient as influxdb
+# 파일 생성 시 import하는 부분을 파일 이름과 똑같이 짓지 말 것
+# 서로 충돌이나 오류를 잡기 힘들어지기 때문
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(14, GPIO.IN)

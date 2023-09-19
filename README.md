@@ -84,3 +84,24 @@
     >create database <데이터베이스명>
     확인 : show databases
 
+
+<h3>Grafana Installation</h3>
+
+<li>Repository의 GPG key를 더하기</li>
+
+    wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+
+<li>Repository를 더하기</li>
+
+    echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a                 /etc/apt/sources.list.d/grafana.list
+
+<li>프로그램 설치</li>
+
+    sudo apt update
+    sudo apt install grafana
+
+<li>프로그램 실행</li>
+
+    sudo service grafana-server start
+
+

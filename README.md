@@ -106,4 +106,37 @@
     서버를 구동하고 default 호스트 주소 & 자기 자신의 아이피 주소로 접속 가능
     아이피로 들어갈 시 전체적으로 데이터를 처리하는? 부분이 좀 더 빠른 거 같음
 
+<h3>라즈베리파이 카메라 이용</h3>
+    
+    <h5>카메라 설정</h5>
 
+<li>interface option</li>
+
+ <li>Legacy Camera -> Disable</li>
+
+ <h5>카메라 사용 방법</h5>
+
+    raspistill -o 파일명.jpg <- 안될 시 아래에 있는 방법으로 진행
+    libcamera-still -o 파일명.jpg <- 이것도 안될 시 sudo apt-get update진행
+
+<h3>라즈베리파이에 Telegram 연동</h3>
+
+<h5>라즈베리파이에 Telegram API 설치</h5>
+    
+    pip3 install python-telegram-bot --upgrade
+
+<h5>git 설치</h5>
+
+    sudo apt-get install git
+
+<h5>라즈베리파이에 Telegram API사용</h5>
+
+    git colne https://github.com/python-teltgram-bot/python-telegram-bot --recursive
+
+<h5>picamera 설치</h5>
+
+    pip3 install picamera
+
+<h5>python-telegram-bot[job-queue]설치</h5>
+
+    pip install python-telegram-bot[jobqueue]
